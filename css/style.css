@@ -1,0 +1,115 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+header{
+    display: flex;
+    background: #173F5F;
+    align-items: center;
+    padding: 15px 0;
+}
+header ul{
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+#logo{
+    margin: 0 auto;
+    font-size: 30px;
+}
+#menu li{
+    padding: 10px;
+}
+#social-links li{
+    padding: 10px;
+}
+/*--====our service====--*/
+
+#main{
+    display: flex;
+}
+aside{
+    flex: 0 0 20vw;
+    padding: 10px;
+    background: #F1D9CB;
+}
+aside ul{
+    list-style: none;
+    padding: 0;
+}
+aside ul li:hover{
+    background: #EF4B6D;
+}
+aside ul a{
+    text-decoration: none;
+    color: #264653;
+    padding: 10px;
+    display: block;
+    border-bottom: 1px solid #000;
+}
+aside ul a:hover{
+    color: #fff;
+}
+aside img{
+    width: 100%;
+}
+article{
+    padding: 10px;
+}
+.services-container{
+    display: flex;
+    justify-content: space-between;
+}
+.service-box{
+    margin: 1px solid #eee;
+    flex-basis: 32%;
+    max-width: 370px;
+    margin-bottom: 15px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.service-box img{
+    width: 100%;
+}
+.service-box h3{
+    margin: 5px 0 10px;
+}
+.service-box p{
+    margin: 0 0 10px;
+}
+.call-to-action{
+    align-self: flex-start;
+    margin-top: auto;
+}
+.call-to-action a{
+    background: #623122;
+    text-decoration: none;
+    border: 2px solid transparent;
+    padding: 10px 13px;
+    color: #fff;
+    display: block;
+}
+.call-to-action a:hover{
+    background: #E32B69;
+    border: 2px solid #000;
+    color: #000;
+}
+footer{
+    background: #173F5F;
+    padding: 15px 0;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+}
